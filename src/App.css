@@ -77,9 +77,16 @@ body {
   transition: .3s ease-in-out;
   background-color: rgba(255, 255, 255, 0.439);
 }
-.btn:hover{
-  color: white !important;
-  background-color: #0277B5 !important;
-  transform: scale(1.1);
 
+.project{
+  transition: .5s ease-in-out;
+}
+
+.project:hover{
+  padding: 20px;
+}
+
+.project:hover .btn { /* change color of the child element when hovered on the parent element */
+  background-color: #0277B5; /* Change the color to your preference when hovered */
+  color: white !important; /* Change the text color to your preference when hovered */
 }

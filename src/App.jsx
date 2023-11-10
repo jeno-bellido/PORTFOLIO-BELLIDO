@@ -4,6 +4,7 @@ import Hero from "./Hero"
 import './App.css'
 import Projects from "./Projects"
 import { animateScroll as scroll } from 'react-scroll';
+import Skills from "./Skills"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <NavBar/>
     <Hero />
     <Projects />
+    <Skills />
 
     </>
   )
