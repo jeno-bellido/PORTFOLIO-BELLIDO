@@ -26,7 +26,7 @@ function Projects() {
                 <div className=' rounded-5'>
                     <div className='project-bg'>
                         <div className='position-relative' data-aos="fade-up">
-                        <img className='rounded-3' src="../public/project-1.png" alt="" style={{width: '100%', height: 'auto'}} />
+                        <img className='rounded-3' src="project-1.png" alt="" style={{width: '100%', height: 'auto'}} />
                         <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '0', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit SafetyPin </button>                            
                         </div>
                     <div className='' data-aos="fade-up" data-aos-delay="400">

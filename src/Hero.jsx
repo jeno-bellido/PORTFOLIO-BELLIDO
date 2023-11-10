@@ -64,7 +64,7 @@ function Hero() {
 
             <div className='col-5 d-lg-flex d-none p-2' data-aos="zoom-in" data-aos-delay="1400">
                 <div className='p-5 rounded-5' >
-                    <img className='element-tilt' src="../public/hero-image.png" alt="" style={{width: '100%', height: 'auto'}} />
+                    <img className='element-tilt' src="hero-image.png" alt="" style={{width: '100%', height: 'auto'}} />
                 </div>
             </div>
 
