@@ -3,6 +3,9 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0; /* Remove default body margin */

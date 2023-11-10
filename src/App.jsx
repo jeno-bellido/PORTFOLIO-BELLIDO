@@ -3,7 +3,8 @@ import NavBar from "./NavBar"
 import Hero from "./Hero"
 import './App.css'
 import Projects from "./Projects"
- 
+import { animateScroll as scroll } from 'react-scroll';
+
 function App() {
   return (
     <>

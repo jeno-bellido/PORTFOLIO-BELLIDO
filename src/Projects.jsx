@@ -44,7 +44,7 @@ function Projects() {
                 <div className=' rounded-5'>
                     <div className='project-bg'>
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
-                        <source src="project-3.mp4" type="video/mp4" />
+                        <source src="project-3-2.mp4" type="video/mp4" />
                     </video>
                     <div className=' py-2'>
                     <p className=' title' style={{fontWeight: '800', fontSize: '30px', color: '#0277B5'}}>Swiftify</p>
