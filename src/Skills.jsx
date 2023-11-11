@@ -103,17 +103,21 @@ function Skills() {
                 </div>
                 
                 <div className='col-lg-6 col-md-6 col-12 p-3 row d-lg-flex d-flex pb-5 '>
-                    <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-up" data-aos-delay="200">
-                    👩‍💻 Immersed in the dynamic realm of full stack development, I've delved into diverse technology stacks, honing my skills along the way. Eager to stay at the forefront of tech trends, I'm actively seeking opportunities to explore new and innovative tech stacks that lie beyond my current expertise.
-                    </p>
-
-                    <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-up" data-aos-delay="400">
-                    🤖 I've learned different AI algorithms. While I've acquired knowledge in this area, I'm eager to continue learning and gradually integrate AI into my upcoming projects.
-                    </p>
-
-                    <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-up" data-aos-delay="600">
-                    🤝 I had the opportunity to lead a team, through our undergraduate thesis where we integrated two algorithms. Recently, our efforts were recognized, and we secured a win in the BPI-DOST Innovation Awards 2023, ranking among the top 10 innovations.
-                    </p>
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >
+                        👩‍💻 Immersed in the dynamic realm of full stack development, I've delved into diverse technology stacks, honing my skills along the way. Eager to stay at the forefront of tech trends, I'm actively seeking opportunities to explore new and innovative tech stacks that lie beyond my current expertise.
+                        </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="400">
+                        <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >
+                        🤖 I've learned different AI algorithms. While I've acquired knowledge in this area, I'm eager to continue learning and gradually integrate AI into my upcoming projects.
+                        </p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="600">
+                        <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >
+                        🤝 I had the opportunity to lead a team, through our undergraduate thesis where we integrated two algorithms. Recently, our efforts were recognized, and we secured a win in the BPI-DOST Innovation Awards 2023, ranking among the top 10 innovations.
+                        </p>
+                    </div>
 
                 </div>
 
