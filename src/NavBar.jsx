@@ -4,6 +4,8 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 // npm install aos [animate onscroll]
 import AOS from 'aos' 
 import 'aos/dist/aos.css'
+// ScrollLink [npm install react-scroll, clicking it will redirect to a section with specified id]
+import { Link as ScrollLink } from 'react-scroll';
 
 function NavBar() {
   useEffect(() => {
@@ -13,23 +15,44 @@ function NavBar() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
-
   return (
     <>
     <div className='d-flex justify-content-center align-items-center '>
     <div className='d-flex justify-content-between p-lg-5 p-4' style={{height: '100px', width: '100%'}}>
 
       <div className='d-flex align-items-center justify-content-center'>
-        <p className='logo m-0' style={{fontWeight: '900', fontSize: '40px', color: '#0277B5'}} data-aos="fade-right">JB</p>
+        <p className='logo m-0' style={{fontWeight: '900', fontSize: '40px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">JB</p>
       </div>
 
       <div className='d-lg-flex d-md-flex d-none align-items-center justify-content-center gap-5'>
-        <p className='nav m-0' style={{fontWeight: 'bold', fontSize: '14px', color: '#0277B5'}} data-aos="fade-down" data-aos-delay="200">Home</p>
-        <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="400">About</p>
-        <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="600">Projects</p>
-        <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="800">Skills</p>
-        <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="1000">Contact</p>
-      </div>
+        <ScrollLink to="projects" smooth={true} duration={0} offset={-40}> 
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="200">Projects</p>
+        </ScrollLink>
+        <ScrollLink to="skills" smooth={true} duration={0} offset={-40}> 
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="400">Skills</p>
+        </ScrollLink>
+        <ScrollLink to="about" smooth={true} duration={0} offset={-40}> 
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="600">About</p>
+        </ScrollLink>
+        <ScrollLink to="contact" smooth={true} duration={0} offset={-40}> 
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="800">Contact</p>
+        </ScrollLink>
+
+        <div className='d-flex align-items-center justify-content-center gap-3'>
+
+        <div data-aos="fade-down" data-aos-delay="1000">
+          <p className='logo m-0' style={{fontWeight: 'bold', fontSize: '20px', color: '#323131'}} > <i className='bi-github'></i> </p>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="1200">
+          <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} ><i className='bi-facebook'></i> </p>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="1400">
+          <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} ><i className='bi-linkedin'></i> </p>
+        </div>
+        </div>
+
+
+     </div>
 
       <div className='d-lg-none d-md-none d-flex align-items-center justify-content-center gap-4'>
         <div data-aos="fade-down" data-aos-delay="200">

@@ -6,6 +6,8 @@ import Projects from "./Projects"
 import { animateScroll as scroll } from 'react-scroll';
 import Skills from "./Skills"
 import About from "./About"
+import Contact from "./Contact"
+import Footer from "./Footer"
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
     <Projects />
     <Skills />
     <About />
+    <Contact />
+    <Footer />
 
 
     </>

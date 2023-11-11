@@ -13,11 +13,11 @@ function Skills() {
       }, []);
     return (
         <>
-        <div className=' d-flex justify-content-center align-items-center' >
+        <div id='skills' className=' d-flex justify-content-center align-items-center' >
             <div className=' d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}}>
 
                 <div className='w-100  px-lg-5 p-4 p-lg-0'>
-                    <p className='mb-1 name' style={{fontWeight: '800', fontSize: '75px', color: '#0277B5'}} data-aos="fade-right">Skills</p>
+                    <p className='mb-1 name' style={{fontWeight: '800', fontSize: '50px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">Skills</p>
                     <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="200"> Skills learned throughout the years. Let's build the web together! 🌐💻</p>
                 </div>
 
@@ -113,11 +113,6 @@ function Skills() {
                         🤖 I've learned different AI algorithms. While I've acquired knowledge in this area, I'm eager to continue learning and gradually integrate AI into my upcoming projects.
                         </p>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="600">
-                        <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >
-                        🤝 I had the opportunity to lead a team, through our undergraduate thesis where we integrated two algorithms. Recently, our efforts were recognized, and we secured a win in the BPI-DOST Innovation Awards 2023, ranking among the top 10 innovations.
-                        </p>
-                    </div>
 
                 </div>
 
@@ -126,7 +121,6 @@ function Skills() {
                 
             </div>
         </div>
-        <br /><br /><br />
         </>
       )
     }

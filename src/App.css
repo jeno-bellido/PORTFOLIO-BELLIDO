@@ -39,9 +39,6 @@ body {
     font-size: 14px !important;
   }
 
-  .name {
-    font-size: 60px !important;
-  }
 }
 
 @media screen and (max-width: 445px) {
@@ -49,9 +46,6 @@ body {
     font-size: 14px !important;
   }
 
-  .name {
-    font-size: 50px !important;
-  }
 }
 
 /* PROJECTS */
@@ -100,4 +94,16 @@ body {
 }
 .skill-div:hover img{
   transform: scale(1.2);
+}
+
+.btn:hover{
+  color: white !important;
+}
+
+.contact{
+  transition: .3s ease-in-out !important;
+}
+
+.contact:hover{
+    transform: scale(1.03) !important;
 }
