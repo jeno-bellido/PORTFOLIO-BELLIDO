@@ -57,7 +57,7 @@ function Hero() {
               </div>
                 <br />
                 <div className='d-flex gap-4'>
-                    <p className='logo m-0' style={{fontWeight: 'bold', fontSize: '25px', color: '#0277B5'}} > <i className='bi-github'></i> </p>
+                    <p className='logo m-0' style={{fontWeight: 'bold', fontSize: '25px', color: '#0277B5'}} data-aos="fade-up" data-aos-delay="800"> <i className='bi-github'></i> </p>
                     <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '25px', color: '#0277B5'}} data-aos="fade-up" data-aos-delay="1000"><i className='bi-facebook'></i> </p>
                     <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '25px', color: '#0277B5'}} data-aos="fade-up" data-aos-delay="1200"><i className='bi-linkedin'></i> </p>
                 </div>
