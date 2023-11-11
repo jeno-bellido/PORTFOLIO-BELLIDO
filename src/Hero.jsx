@@ -6,32 +6,7 @@ import 'aos/dist/aos.css'
 
 function Hero() {
 
-    useEffect(() => {
-        const video = document.getElementById('myVideo'); // located in App.jsx
-      
-        const playPromise = video.play();
-      
-        if (playPromise !== undefined) {
-          playPromise
-            .then(_ => {
-              // Automatic playback started!
-            })
-            .catch(error => {
-              // Auto-play was prevented
-              // Show a UI element to let the user manually start playback
-            });
-        }
-      
-        video.oncanplay = () => {
-          const elements = document.querySelectorAll('.element-tilt');
-          VanillaTilt.init(elements, {
-            max: 25,
-            speed: 400,
-            glare: true,
-            'max-glare': 0.5,
-          });
-        };
-      }, []);
+
 
       useEffect(() => {
         window.scrollTo(0, 0);
@@ -51,9 +26,15 @@ function Hero() {
         <div className=' col-12 row d-flex '>
             
             <div className='col-lg-7 col-12  p-2 d-flex  justify-content-center flex-column'>
-                <p className='mb-1 greeting' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="200">Greetings! Delighted to introduce myself as</p>
-                <p className='mb-1 name' style={{fontWeight: '800', fontSize: '75px', color: '#0277B5'}} data-aos="fade-right" data-aos-delay="400">Jeno Bellido</p>
-                <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="600">Full-stack Developer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
+              <div data-aos="fade-right" data-aos-delay="200">
+                <p className='mb-1 greeting' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Greetings! Delighted to introduce myself as</p>
+              </div>
+              <div data-aos="fade-right" data-aos-delay="400">
+                <p className='mb-1 name' style={{fontWeight: '800', fontSize: '75px', color: '#0277B5'}} >Jeno Bellido</p>
+              </div>
+              <div data-aos="fade-right" data-aos-delay="600">
+                <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Full-stack Developer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
+              </div>
                 <br />
                 <div className='d-flex gap-4'>
                     <p className='logo m-0' style={{fontWeight: 'bold', fontSize: '25px', color: '#0277B5'}} data-aos="fade-up" data-aos-delay="800"> <i className='bi-github'></i> </p>

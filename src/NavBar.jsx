@@ -32,9 +32,15 @@ function NavBar() {
       </div>
 
       <div className='d-lg-none d-md-none d-flex align-items-center justify-content-center gap-4'>
-        <p className='logo m-0' style={{fontWeight: 'bold', fontSize: '20px', color: '#323131'}} data-aos="fade-down" data-aos-delay="200"> <i className='bi-github'></i> </p>
-        <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} data-aos="fade-down" data-aos-delay="400"><i className='bi-facebook'></i> </p>
-        <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} data-aos="fade-down" data-aos-delay="600"><i className='bi-linkedin'></i> </p>
+        <div data-aos="fade-down" data-aos-delay="200">
+          <p className='logo m-0' style={{fontWeight: 'bold', fontSize: '20px', color: '#323131'}} > <i className='bi-github'></i> </p>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="400">
+          <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} ><i className='bi-facebook'></i> </p>
+        </div>
+        <div data-aos="fade-down" data-aos-delay="600">
+          <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} ><i className='bi-linkedin'></i> </p>
+        </div>
       </div>
 
     </div>

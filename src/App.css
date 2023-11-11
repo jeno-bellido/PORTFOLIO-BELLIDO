@@ -9,16 +9,12 @@ html {
 
 body {
   margin: 0; /* Remove default body margin */
-}
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  background: url('bg.gif') no-repeat center center fixed;
+  background-size: cover;
   z-index: -1;
 }
+
+
 
 /* NAVBAR */
 .nav, .logo i, .logo{
@@ -27,7 +23,6 @@ body {
 
 .nav:hover, .logo i:hover{
   color: #0277B5 !important;
-  font-weight: bold !important;
 }
 
 .logo:hover {
@@ -60,12 +55,16 @@ body {
 }
 
 /* PROJECTS */
-.title, .desc{
-  transition: .3s ease-in-out;
+.title, .desc, .skill{
+  transition: .3s ease-in-out !important;
+}
+
+.skill:hover{
+  transform: scale(1.01) !important;
 }
 @media screen and (max-width: 675px) {
 
-  .techstack,.desc{
+  .techstack,.desc, .skill{
     font-size: 14px !important;
     font-weight: normal !important;
 
@@ -89,4 +88,16 @@ body {
 .project:hover .btn { /* change color of the child element when hovered on the parent element */
   background-color: #0277B5; /* Change the color to your preference when hovered */
   color: white !important; /* Change the text color to your preference when hovered */
+}
+
+.skill-div:hover .desc{
+  font-weight: bold !important;
+  color: #0277B5 !important; 
+}
+
+.skill-div img{
+  transition: .3s ease-in-out;
+}
+.skill-div:hover img{
+  transform: scale(1.2);
 }
