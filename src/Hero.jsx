@@ -50,13 +50,13 @@ function Hero() {
                 <p className='mb-1 greeting' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Greetings! Delighted to introduce myself as</p>
               </div>
               <div data-aos="fade-right" data-aos-delay="400">
-              <p className='mb-1 name' style={{ fontWeight: '800', fontSize: '75px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent' }}>Jeno Bellido</p>              </div>
+              <p className='mb-1 name' style={{ fontWeight: '800', fontSize: '75px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent' }}>JENO BELLIDO</p>              </div>
               <div data-aos="fade-right" data-aos-delay="600">
                 <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Full-stack Developer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
               </div>
                 <br />
                 <div className='d-flex gap-4' data-aos="fade-right" data-aos-delay="800">
-                  <button className='px-4 py-2 btn btn-primary bi bi-file-earmark-pdf' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> RESUME </button>
+                 <a target='_blank' href="https://pdfhost.io/v/gXsYkO8~8_Jenos_Portfolio"> <button className='px-4 py-2 btn btn-primary bi bi-file-earmark-pdf' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> RESUME </button> </a> 
                 </div>
             </div>
 

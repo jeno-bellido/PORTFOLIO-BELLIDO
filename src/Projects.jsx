@@ -79,6 +79,24 @@ function Projects() {
                     <div className='project-bg'>
                     <div className='position-relative' data-aos="fade-up">
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
+                        <source src="project-5.mp4" type="video/mp4" />
+                    </video>
+                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '0', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit ICH </button>                            
+                    </div>
+                    <div className=' py-2' data-aos="fade-up" data-aos-delay="400">
+                        <p className=' title' style={{fontWeight: '800', fontSize: '30px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}}>PneumoScan</p>
+                        <p className=' desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> An AI-driven web application that enables users to upload chest X-rays for analysis, providing insights into the likelihood of pneumonia based on CNN modeling.</p>
+                        <p className='m-0 techstack' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> <b style={{color: '#004AAD'}}>Tech Stack: </b> FastAPI, React, Javascript, CSS, Bootstrap, HTML</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='project col-lg-4 col-md-6 col-sm-6 col-12 d-lg-flex d-flex pb-5'>
+                <div className=' rounded-5'>
+                    <div className='project-bg'>
+                    <div className='position-relative' data-aos="fade-up">
+                    <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-4.mp4" type="video/mp4" />
                     </video>
                     <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '0', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit Swiftify </button>                            
