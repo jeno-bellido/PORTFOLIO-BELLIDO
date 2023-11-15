@@ -58,7 +58,14 @@ function Skills() {
                     <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="1000">
                         <img src="mysql.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> MySQL</p>
+                        
                     </div>
+
+                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="700">
+                        <img src="php.png" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> PHP</p>
+                    </div>
+
 
                     <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="1200">
                         <img src="github.png" style={{ width: '100%', height: 'auto' }} alt="react" />
