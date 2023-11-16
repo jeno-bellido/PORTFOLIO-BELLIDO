@@ -52,7 +52,7 @@ function Hero() {
                 <p className='greeting' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} >👋 Hey there, I’m</p>
               </div>
               <div data-aos="fade-right" data-aos-delay="400">
-              <p className='name' style={{ lineHeight: '1',  fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent' }}>JENO BELLIDO</p>              
+              <p className='name' style={{ lineHeight: '1',  fontWeight: '900', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent' }}>JENO BELLIDO</p>              
               </div>
 
               <div className='d-flex gap-4' data-aos="fade-right" data-aos-delay="800" >

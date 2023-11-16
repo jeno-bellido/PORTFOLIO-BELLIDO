@@ -13,7 +13,7 @@ function Contact() {
       <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-start  ' >
       
 
-      <div className='col-lg-7 col-md-6 col-12 p-3 row d-flex p-lg-5 p-md-4 p-sm-3 p-0 justify-content-start'>
+      <div className='col-lg-7 col-md-6 col-12 row d-flex p-lg-5 p-md-4 p-sm-3 p-4 justify-content-start'>
             
         <div className=''>
         <img src="email.png" alt="" style={{objectFit: 'cover', width: '50px', height: 'auto'}} data-aos="fade-right" data-aos-delay="200"/>
