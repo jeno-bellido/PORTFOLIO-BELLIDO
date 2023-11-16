@@ -3,8 +3,8 @@ import React from 'react'
 function About() {
   return (
     <>
-      <div id='about' className=' d-flex justify-content-center align-items-center mb-5 ' >
-      <div className=' d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}}>
+      <div id='about' className=' d-flex justify-content-center align-items-center mb-lg-5 mb-md-5 m-0' >
+      <div className=' d-flex justify-content-center align-items-center flex-column mb-lg-5 mb-md-5 m-0' style={{width: "100%"}}>
       
       <div className='w-100  px-lg-5 p-4 p-lg-0'>
         <p className='mb-1 name' style={{lineHeight: '1', fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">About Me</p>
