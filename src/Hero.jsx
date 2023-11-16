@@ -64,13 +64,13 @@ function Hero() {
               </div>
                 <br />
 
-                <div className='d-flex gap-3 '>
+                <div className='d-flex gap-3 'data-aos="fade-right"  data-aos-delay="800">
 
-                <div className='d-flex gap-4' data-aos="fade-right" >
+                <div className='d-flex gap-4' >
                  <a target='_blank' href="https://pdfhost.io/v/gXsYkO8~8_Jenos_Portfolio"> <button className='px-4 py-2 btn btn-primary border-2' style={{fontWeight: 'bold', fontSize: '14px', color: '#323131'}}> 📄 RESUME </button> </a> 
                 </div>
 
-                <ScrollLink to="contact" className='d-flex gap-4 text-decoration-none ' data-aos="fade-right" >
+                <ScrollLink to="contact" className='d-flex gap-4 text-decoration-none ' >
                  <button className='px-4 py-2 btn btn-primary border-2 text-decoration-none ' style={{fontWeight: 'bold', fontSize: '14px', color: '#323131'}}>  🤙 Get in Touch </button> 
                 </ScrollLink>
 
