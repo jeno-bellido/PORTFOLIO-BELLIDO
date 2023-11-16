@@ -26,16 +26,16 @@ function NavBar() {
 
       <div className='d-lg-flex d-md-flex d-none align-items-center justify-content-center gap-5'>
         <ScrollLink to="projects" smooth={true} duration={0} offset={-40}> 
-          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="200">Projects</p>
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="200">Projects</p>
         </ScrollLink>
         <ScrollLink to="skills" smooth={true} duration={0} offset={-40}> 
-          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="400">Skills</p>
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="400">Skills</p>
         </ScrollLink>
         <ScrollLink to="about" smooth={true} duration={0} offset={-40}> 
-          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="600">About</p>
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="600">About</p>
         </ScrollLink>
         <ScrollLink to="contact" smooth={true} duration={0} offset={-40}> 
-          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="800">Contact</p>
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="800">Contact</p>
         </ScrollLink>
 
         <div className='d-flex align-items-center justify-content-center gap-3'>

@@ -13,17 +13,17 @@ function Skills() {
       }, []);
     return (
         <>
-        <div id='skills' className=' d-flex justify-content-center align-items-center' >
+        <div id='skills' className=' d-flex justify-content-center align-items-center mb-5 ' >
             <div className=' d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}}>
 
                 <div className='w-100  px-lg-5 p-4 p-lg-0'>
-                    <p className='mb-1 name' style={{fontWeight: '800', fontSize: '50px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">Skills</p>
-                    <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="200"> Skills learned throughout the years. Let's build the web together! 🌐💻</p>
+                    <p className='mb-1 name' style={{fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">Skills</p>
+                    <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-right" data-aos-delay="200"> Here are my skills: a versatile toolkit ready to enhance any project! 🚀</p>
                 </div>
 
-                <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-start p-lg-4 p-4 ' >
+                <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-lg-start justify-content-md-start justify-content-center align-items-center p-lg-4 p-4 ' >
 
-                <div className='col-lg-6 col-md-6 col-12 p-3 row d-flex '>
+                <div className='col-lg-6 col-md-8 col-12 p-3 row d-flex   '>
 
                     <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="react.png" style={{ width: '100%', height: 'auto' }} alt="react" />
@@ -39,6 +39,12 @@ function Skills() {
                         <img src="node.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> NodeJS</p>
                     </div>
+
+                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="400">
+                        <img src="restapi.png" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> RestAPI</p>
+                    </div>
+
 
                     <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="600">
                         <img src="bootstrap.png" style={{ width: '100%', height: 'auto' }} alt="react" />
@@ -109,18 +115,10 @@ function Skills() {
 
                 </div>
                 
-                <div className='col-lg-6 col-md-6 col-12 p-3 row d-lg-flex d-flex pb-5 '>
-                    <div data-aos="fade-up" data-aos-delay="200">
-                        <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >
-                        👩‍💻 Immersed in the dynamic realm of full stack development, I've delved into diverse technology stacks, honing my skills along the way. Eager to stay at the forefront of tech trends, I'm actively seeking opportunities to explore new and innovative tech stacks that lie beyond my current expertise.
-                        </p>
+                <div className='col-lg-6 col-md-6 col-12 p-3 row d-lg-flex d-flex justify-content-center align-items-center  d-none  ' data-aos="fade-up">
+                    <div className='d-flex justify-content-center  align-items-center '>
+                        <img src="skills.png" className='rounded-5' style={{width:"100%", objectFit: 'cover'}} alt="" />
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="400">
-                        <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >
-                        🤖 I've learned different AI algorithms. While I've acquired knowledge in this area, I'm eager to continue learning and gradually integrate AI into my upcoming projects.
-                        </p>
-                    </div>
-
                 </div>
 
                 </div>

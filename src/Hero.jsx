@@ -3,6 +3,8 @@ import VanillaTilt from 'vanilla-tilt';
 // npm install aos [animate onscroll]
 import AOS from 'aos' 
 import 'aos/dist/aos.css'
+// ScrollLink [npm install react-scroll, clicking it will redirect to a section with specified id]
+import { Link as ScrollLink } from 'react-scroll';
 
 function Hero() {
 
@@ -41,28 +43,45 @@ function Hero() {
     <>
 
     
-    <div className=' d-flex justify-content-center align-items-center my-lg-0 my-md-5 my-5' >
+    <div className=' d-flex justify-content-center align-items-center my-lg-0 my-md-5 my-5 mb-5' >
     <div className='  d-flex justify-content-center align-items-center my-lg-0 my-md-5 my-5 px-lg-5 p-4 p-lg-0 ' style={{width: '100%'}}>
         <div className=' col-12 row d-flex '>
             
             <div className='col-lg-7 col-12  p-2 d-flex  justify-content-center flex-column'>
               <div data-aos="fade-right" data-aos-delay="200">
-                <p className='mb-1 greeting' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Greetings! Delighted to introduce myself as</p>
+                <p className='greeting' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} >👋 Hey there, I’m</p>
               </div>
               <div data-aos="fade-right" data-aos-delay="400">
-              <p className='mb-1 name' style={{ fontWeight: '800', fontSize: '75px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent' }}>JENO BELLIDO</p>              </div>
-              <div data-aos="fade-right" data-aos-delay="600">
-                <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Full-stack Developer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
+              <p className='name' style={{ lineHeight: '1',  fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent' }}>JENO BELLIDO</p>              
+              </div>
+
+              <div className='d-flex gap-4' data-aos="fade-right" data-aos-delay="800" >
+                <button className='px-4 py-2 btn btn-primary rounded-5 border-2' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> Full-stack Developer </button> 
+                </div>
+
+              <div data-aos="fade-right" data-aos-delay="600" style={{marginTop: '15px'}}>
+                <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} >Full-stack Developer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
               </div>
                 <br />
-                <div className='d-flex gap-4' data-aos="fade-right" data-aos-delay="800">
-                 <a target='_blank' href="https://pdfhost.io/v/gXsYkO8~8_Jenos_Portfolio"> <button className='px-4 py-2 btn btn-primary bi bi-file-earmark-pdf' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> RESUME </button> </a> 
+
+                <div className='d-flex gap-3 '>
+
+                <div className='d-flex gap-4' data-aos="fade-right" >
+                 <a target='_blank' href="https://pdfhost.io/v/gXsYkO8~8_Jenos_Portfolio"> <button className='px-4 py-2 btn btn-primary border-2' style={{fontWeight: 'bold', fontSize: '14px', color: '#323131'}}> 📄 RESUME </button> </a> 
                 </div>
+
+                <ScrollLink to="contact" className='d-flex gap-4 text-decoration-none ' data-aos="fade-right" >
+                 <button className='px-4 py-2 btn btn-primary border-2 text-decoration-none ' style={{fontWeight: 'bold', fontSize: '14px', color: '#323131'}}>  🤙 Get in Touch </button> 
+                </ScrollLink>
+
+                </div>
+
+
             </div>
 
             <div className='col-5 d-lg-flex d-none p-2' data-aos="zoom-in" data-aos-delay="1400">
                 <div className='p-5 rounded-5' >
-                    <img className='element-tilt' src="hero-image.png" alt="" style={{width: '100%', height: 'auto'}} />
+                    <img className='element-tilt rounded-5 ' src="hero-image.png" alt="" style={{width: '100%', height: 'auto'}} />
                 </div>
             </div>
 
