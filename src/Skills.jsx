@@ -17,7 +17,7 @@ function Skills() {
             <div className=' d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}}>
 
                 <div className='w-100  px-lg-5 p-4 p-lg-0'>
-                    <p className='mb-1 name' style={{fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">Skills</p>
+                    <p className='mb-1 name' style={{lineHeight: '1', fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">Skills</p>
                     <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-right" data-aos-delay="200"> Here are my skills: a versatile toolkit ready to enhance any project! 🚀</p>
                 </div>
 
