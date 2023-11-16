@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <>
-    <div id='about' className=' d-flex justify-content-center align-items-center' >
+    <div id='contact' className=' d-flex justify-content-center align-items-center' >
       <div className=' d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}}>
       <div className='w-100  px-lg-5 p-4 p-lg-0'>
                     <p className='mb-1 name' style={{ lineHeight: '1', fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">Get in Touch</p>
@@ -15,7 +15,7 @@ function Contact() {
 
       <div className='col-lg-7 col-md-6 col-12 p-3 row d-flex p-lg-5 p-md-4 p-sm-3 p-0 justify-content-start'>
             
-        <div className=' contact'>
+        <div className=''>
         <img src="email.png" alt="" style={{objectFit: 'cover', width: '50px', height: 'auto'}} data-aos="fade-right" data-aos-delay="200"/>
         <p className='mt-1 p-0 m-0 ' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="400"> 
             Email

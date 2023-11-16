@@ -38,6 +38,9 @@ body {
   .greeting, .description {
     font-size: 14px !important;
   }
+  .name{
+    font-size: 60px !important;
+  }
 
 }
 
