@@ -30,6 +30,12 @@ function Skills() {
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> React</p>
                     </div>
 
+                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                        <img src="ts.png" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> TypeScript</p>
+                    </div>
+
+
                     <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="200">
                         <img src="js.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> JavaScript</p>
@@ -40,6 +46,23 @@ function Skills() {
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> NodeJS</p>
                     </div>
 
+                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="700">
+                        <img src="fastapi.png" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> FastAPI</p>
+                    </div>
+
+                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="800">
+                        <img src="postgre.png" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> PostgreSQL</p>
+                    </div>
+
+                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="800">
+                        <img src="mongodb.png" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> MongoDB</p>
+                    </div>
+
+
+
                     <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="400">
                         <img src="restapi.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> RestAPI</p>
@@ -49,16 +72,6 @@ function Skills() {
                     <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="600">
                         <img src="bootstrap.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> Bootstrap</p>
-                    </div>
-
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="700">
-                        <img src="fastapi.png" style={{ width: '100%', height: 'auto' }} alt="react" />
-                        <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> FastAPI</p>
-                    </div>
-
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="800">
-                        <img src="mongodb.png" style={{ width: '100%', height: 'auto' }} alt="react" />
-                        <p className='desc' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}}> MongoDB</p>
                     </div>
 
                     <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" data-aos-delay="1000">
