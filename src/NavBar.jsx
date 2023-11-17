@@ -21,34 +21,51 @@ function NavBar() {
     <div className='d-flex justify-content-between p-lg-5 p-4' style={{height: '100px', width: '100%'}}>
 
       <div className='d-flex align-items-center justify-content-center'>
-        <p className='logo m-0' style={{fontWeight: '900', fontSize: '40px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">JB</p>
+        <img src="logo.png" style={{width: '80px'}} alt="" />
       </div>
 
       <div className='d-lg-flex d-md-flex d-none align-items-center justify-content-center gap-5'>
         <ScrollLink to="projects" smooth={true} duration={0} offset={-80}> 
-          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="200">Projects</p>
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="200">Projects</p>
         </ScrollLink>
         <ScrollLink to="skills" smooth={true} duration={0} offset={-80}> 
-          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="400">Skills</p>
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="400">Skills</p>
         </ScrollLink>
         <ScrollLink to="about" smooth={true} duration={0} offset={-40}> 
-          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="600">About</p>
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="600">About</p>
         </ScrollLink>
         <ScrollLink to="contact" smooth={true} duration={0} offset={-80}> 
-          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-down" data-aos-delay="800">Contact</p>
+          <p className='nav m-0' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="800">Contact</p>
         </ScrollLink>
 
         <div className='d-flex align-items-center justify-content-center gap-3'>
 
         <div data-aos="fade-down" data-aos-delay="1000">
-          <p className='logo m-0' style={{fontWeight: 'bold', fontSize: '20px', color: '#323131'}} > <i className='bi-github'></i> </p>
+        <div className=''>
+        <a target='_blank' href = "https://www.linkedin.com/in/jeno-bellido-079221218/"> <img src="linkedin.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /></a> 
+        </div>
+
         </div>
         <div data-aos="fade-down" data-aos-delay="1200">
-          <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} ><i className='bi-facebook'></i> </p>
+        <div className=''>
+        <a target='_blank' href = "https://www.instagram.com/jjeennnooo/">  <img src="instagram.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
+        </div>
+
         </div>
         <div data-aos="fade-down" data-aos-delay="1400">
-          <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} ><i className='bi-linkedin'></i> </p>
+        <div className=''>
+          <img src="github.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  />
         </div>
+
+        </div>
+
+        <div data-aos="fade-down" data-aos-delay="1400">
+        <div className=''>
+        <a href = "mailto: jeno.bellido@wvsu.edu.ph">  <img src="gmail.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
+        </div>
+
+        </div>
+
         </div>
 
 
@@ -56,14 +73,27 @@ function NavBar() {
 
       <div className='d-lg-none d-md-none d-flex align-items-center justify-content-center gap-4'>
         <div data-aos="fade-down" data-aos-delay="200">
-          <p className='logo m-0' style={{fontWeight: 'bold', fontSize: '20px', color: '#323131'}} > <i className='bi-github'></i> </p>
+        <div className=''>
+        <a target='_blank' href = "https://www.linkedin.com/in/jeno-bellido/"> <img src="linkedin.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /></a> 
+        </div>
         </div>
         <div data-aos="fade-down" data-aos-delay="400">
-          <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} ><i className='bi-facebook'></i> </p>
+        <div className=''>
+        <a target='_blank' href = "https://www.instagram.com/jjeennnooo/">  <img src="instagram.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
+        </div>
         </div>
         <div data-aos="fade-down" data-aos-delay="600">
-          <p className='logo m-0' style={{fontWeight: 'normal', fontSize: '20px', color: '#323131'}} ><i className='bi-linkedin'></i> </p>
+        <div className=''>
+          <img src="github.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  />
         </div>
+        </div>
+
+        <div data-aos="fade-down" data-aos-delay="600">
+        <div className=''>
+        <a href = "mailto: jeno.bellido@wvsu.edu.ph">  <img src="gmail.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
+        </div>
+        </div>
+
       </div>
 
     </div>

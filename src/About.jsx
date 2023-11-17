@@ -8,7 +8,7 @@ function About() {
       
       <div className='w-100  px-lg-5 p-4 p-lg-0'>
         <p className='mb-1 name' style={{lineHeight: '1', fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">About Me</p>
-        <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} data-aos="fade-right" data-aos-delay="200"> Get to know me better. Let's connect and explore together! 👩‍💻</p>
+        <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="200"> Get to know me better. Let's connect and explore together! 👩‍💻</p>
       </div>
 
       <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-lg-start align-items-lg-start align-items-md-start align-items-center justify-content-md-start justify-content-center p-lg-0 p-4' >
@@ -18,36 +18,48 @@ function About() {
         </div>
 
         <div className='col-lg-7 col-md-6 col-12 row d-lg-flex d-flex p-lg-5 p-md-4 p-sm-3 p-0 '>
-          <div data-aos="fade-up" data-aos-delay="200">
-              <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} >
-              👩‍💻 Hey, I'm <b>Jeno</b> , currently in my 4th year at West Visayas State University, where I'm majoring in Computer Science with a focus on Artificial Intelligence. I'm genuinely passionate about diving into the world of Software Development.
+          <div data-aos="fade-up" data-aos-delay="200" className='d-flex flex-column justify-content-center '>
+          <p className='mb-1 ' style={{lineHeight: '1', fontWeight: '900', fontSize: '40px'}}>JENO BELLIDO</p>
+          <div className='d-flex gap-4' >
+                <p className='' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131', borderBottom: '2px solid #0277B5'}}> Full-stack Developer </p> 
+                </div>
 
+          <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >
+     Hey, I'm <b>Jeno</b>, currently in my 4th year at West Visayas State University, where I'm majoring in Computer Science with a focus on Artificial Intelligence. I'm genuinely passionate about diving into the world of Software Development.
+      I've had the incredible experience of leading a team to a national competition that made it to the <b>top 10 innovations in the BPI-DOST Innovation Awards 2023</b>. Also, I've been fortunate enough to consistently receive <b>gold medals for academic excellence</b> throughout my college journey.
+    <br /> <br /> Looking ahead, my career goal is to make a meaningful contribution on society through my work in <b>software development and AI</b>. I'm driven contribute positively to the advancement of technology, aiming to use it for the betterment of our community.
 </p>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="400">
-              <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} >
-              🤖 I'm not just about the books; I've had the incredible experience of leading a team to a antional competition that made it to the <b> top 10 innovations in the BPI-DOST Innovation Awards 2023 </b>. Also, I've been fortunate enough to consistently receive <b> gold medals for academic excellence </b> throughout my college journey.
 
+<div className='d-flex mt-2 gap-3'>
 
-</p>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="600">
-              <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} >
-              🤝 Looking ahead, my career goal is pretty clear: I want to make a meaningful impact on society through my work in <b> software development and AI </b>. I'm driven by the desire to contribute positively to the advancement of technology, aiming to use it for the betterment of our community.
+<div  >
+<div className=''>
+<a target='_blank' href = "https://www.linkedin.com/in/jeno-bellido/"> <img src="linkedin.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /></a> 
+</div>
 
+</div>
+<div  >
+<div className=''>
+<a target='_blank' href = "https://www.instagram.com/jjeennnooo/">  <img src="instagram.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
+</div>
 
-</p>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="600">
-              <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '14px', color: '#323131'}} >
-              🎮 And when I'm not immersed in programming and tech, you'll find me unwinding with my other interests. I'm an avid gamer, finding joy in virtual worlds. I'm also a music enthusiast, and when it's time to kick back, I love indulging in sitcoms—it's my go-to stress-reliever.
+</div>
+<div  >
+<div className=''>
+  <img src="github.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  />
+</div>
 
+</div>
 
+<div  >
+<div className=''>
+<a href = "mailto: jeno.bellido@wvsu.edu.ph">  <img src="gmail.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
+</div>
 
+</div>
 
+</div>
 
-
-</p>
           </div>
 
         </div>
