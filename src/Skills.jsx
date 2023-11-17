@@ -87,7 +87,7 @@ function Skills() {
 
 
                     <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
-                        <img src="github.png" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <img src="github2.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Github</p>
                     </div>
 
