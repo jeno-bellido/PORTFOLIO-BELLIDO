@@ -15,7 +15,7 @@ function Contact() {
 
       <div className='col-lg-7 col-md-6 col-12 row d-flex p-lg-5 p-md-4 p-sm-3 p-4 justify-content-start'>
             
-        <div className=''>
+        <div className='contact'>
         <img src="email.png" alt="" style={{objectFit: 'cover', width: '50px', height: 'auto'}}  />
         <p className='mt-1 p-0 m-0 description' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}} > 
             Email
