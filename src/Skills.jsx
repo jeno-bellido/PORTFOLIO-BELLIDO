@@ -4,9 +4,10 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function Skills() {
-    useEffect(() => {
+   {/** useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
+    */}
     
       useEffect(() => {
         AOS.init({ duration: 2000 });
@@ -23,105 +24,105 @@ function Skills() {
 
                 <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-lg-start justify-content-md-start justify-content-center align-items-center p-lg-4 p-4 ' >
 
-                <div className='col-lg-12 col-md-12 col-12 p-3 row d-flex   '>
+                <div className='col-lg-12 col-md-12 col-12 p-3 row d-flex'>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="react.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> React</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="ts.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> TypeScript</p>
                     </div>
 
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="js.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> JavaScript</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="node.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> NodeJS</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="fastapi.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> FastAPI</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="postgre.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> PostgreSQL</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="mongodb.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> MongoDB</p>
                     </div>
 
 
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="restapi.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> RestAPI</p>
                     </div>
 
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="bootstrap.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Bootstrap</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="mysql.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> MySQL</p>
                         
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="php.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> PHP</p>
                     </div>
 
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="github2.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Github</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="flask.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Flask</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="python.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Python</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="c++.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> C++</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="openai.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> OpenAI</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="css.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> CSS</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="html.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> HTML</p>
                     </div>
 
-                    <div className='skill-div col-lg-2 col-md-2 col-3 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="ai.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc text-center' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> AI Algorithms</p>
                     </div>
