@@ -24,7 +24,7 @@ function Skills() {
 
                 <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-lg-start justify-content-md-start justify-content-center align-items-center p-lg-4 p-4 ' >
 
-                <div className='col-lg-12 col-md-12 col-12 p-3 row d-flex'>
+                <div className='col-lg-12 col-md-12 col-12 p-3 row d-flex border'>
 
                 <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="react.png" style={{ width: '100%', height: 'auto' }} alt="react" />
