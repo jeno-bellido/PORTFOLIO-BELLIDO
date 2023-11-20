@@ -6,7 +6,7 @@ function Footer() {
   return (
    <>
     <div id='footer' className=' d-flex justify-content-center align-items-center' style={{borderTop: '1px solid #323131'}} >
-      <div className='mt-3 d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}} data-aos="fade-up"> 
+      <div className='mt-3 d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}} data-aos="fade-right"> 
       
         <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-start p-lg-4 p-4 ' >
 
