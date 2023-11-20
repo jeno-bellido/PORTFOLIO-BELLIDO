@@ -29,7 +29,7 @@ function Projects() {
                         <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="safetypin.mp4" type="video/mp4" />
                     </video>
-                        <button className='m-0 border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i> Visit SafetyPin </button>                            
+                       <a href="https://safetypin.onrender.com/" target='_blank'> <button className='m-0 border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i>  Visit SafetyPin </button>            </a>                
                         </div>
                     <div className='' data-aos="fade-up" >
                         <p className='mt-3 title' style={{fontWeight: '900', fontSize: '30px'}} >SAFETYPIN</p>
@@ -47,7 +47,7 @@ function Projects() {
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-2-2.mp4" type="video/mp4" />
                     </video>
-                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit ICH </button>                            
+                    <a href="https://iloilo-coffee-house.onrender.com/" target='_blank'> <button className='m-0 border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i>  Visit ICH </button>            </a>                
                     </div>
                     <div className=' py-2' data-aos="fade-up" >
                     <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '900', fontSize: '30px'}} >ILOILO COFFEE HOUSE</p>
@@ -65,7 +65,7 @@ function Projects() {
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-3-2.mp4" type="video/mp4" />
                     </video>
-                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit Swiftify </button>                            
+                    <a href="https://swiftify-spotifytswrap.onrender.com/" target='_blank'> <button className='m-0 border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i>  Visit Swiftify </button>            </a>                
                     </div>
                     <div className=' py-2' data-aos="fade-up" >
                     <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '900', fontSize: '30px'}} >SWIFTIFY</p>
@@ -83,7 +83,7 @@ function Projects() {
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-5.mp4" type="video/mp4" />
                     </video>
-                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit PneumoScan </button>                            
+                    <a href="https://pneumoscanai.onrender.com/" target='_blank'> <button className='m-0 border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i>  Visit PneumoScan </button>            </a>                
                     </div>
                     <div className=' py-2' data-aos="fade-up" >
                     <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '900', fontSize: '30px'}} >PNEUMOSCAN</p>
@@ -101,7 +101,7 @@ function Projects() {
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-4.mp4" type="video/mp4" />
                     </video>
-                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit WVSU - USA </button>                            
+                    <a href="https://wvsu-usa.vercel.app/" target='_blank'> <button className='m-0 border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i>  Visit WVSU - USA </button>            </a>                
                     </div>
                     <div className=' py-2' data-aos="fade-up" >
                     <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '900', fontSize: '30px'}} >WVSU - USA</p>
