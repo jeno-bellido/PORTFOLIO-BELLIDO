@@ -70,7 +70,7 @@ function Hero() {
                  <a target='_blank' href="https://pdfhost.io/v/1hiqKXPB0_RESUME_Bellido"> <button className='description px-4 py-2 btn btn-primary border-2' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> 📄 RESUME </button> </a> 
                 </div>
 
-                <ScrollLink to="contact" offset={-80} className='d-flex gap-4 text-decoration-none ' >
+                <ScrollLink to="contact" offset={-50} className='d-flex gap-4 text-decoration-none ' >
                  <button className='px-4 py-2 btn btn-primary border-2 text-decoration-none description' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> Get in Touch </button> 
                 </ScrollLink>
 
