@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <>
-    <div id='contact' className=' d-flex justify-content-center align-items-center' >
+    <div id='contact' className=' d-flex justify-content-center align-items-center mb-5' >
       <div className=' d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}}>
       <div className='w-100  px-lg-5 p-4 p-lg-0' data-aos="fade-right">
                     <p className='mb-1 name' style={{ lineHeight: '1', fontWeight: '800', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right">Get in Touch</p>

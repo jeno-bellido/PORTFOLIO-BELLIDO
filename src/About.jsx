@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <>
-      <div id='about' className=' d-flex justify-content-center align-items-center mb-lg-5 mb-md-5 m-0' >
+      <div id='about' className=' d-flex justify-content-center align-items-center mb-lg-5 mb-md-5 m-0 mb-5' >
       <div className=' d-flex justify-content-center align-items-center flex-column mb-lg-5 mb-md-5 m-0' style={{width: "100%"}}>
       
       <div className='w-100  px-lg-5 p-4 p-lg-0'>
