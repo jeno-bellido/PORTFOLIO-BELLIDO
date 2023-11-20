@@ -59,7 +59,7 @@ function NavBar() {
 
         </div>
 
-        <div data-aos="fade-down" data-aos-delay="1400">
+        <div data-aos="fade-down" className='' data-aos-delay="1400">
         <div className=''>
         <a href = "mailto: jeno.bellido@wvsu.edu.ph">  <img src="gmail.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
         </div>

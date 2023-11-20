@@ -13,11 +13,11 @@ function About() {
 
       <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-lg-start align-items-lg-start align-items-md-start align-items-center justify-content-md-start justify-content-center p-lg-0 p-4' >
 
-        <div className='col-lg-5 col-md-6 col-12 p-3 row d-flex p-lg-5 p-md-4 p-sm-3 p-0 justify-content-start' data-aos="fade-right">
+        <div className='col-lg-5 col-md-6 col-12  row d-flex p-lg-5 p-md-4 p-sm-3 p-0 justify-content-start' data-aos="fade-right">
           <img src="hero-image.png" className='rounded-5' alt="" style={{width: '100%', height: 'auto', objectFit: 'cover'}} />
         </div>
 
-        <div className='col-lg-7 col-md-6 col-12 row d-lg-flex d-flex p-lg-5 p-md-4 p-sm-3 p-0 '>
+        <div className='col-lg-7 col-md-6 col-12 row d-lg-flex d-flex p-lg-5 p-md-4 p-sm-3 p-0 mt-lg-0 mt-md-0 mt-4'>
           <div data-aos="fade-up" data-aos-delay="200" className='d-flex flex-column justify-content-center '>
           <p className='mb-1 ' style={{lineHeight: '1', fontWeight: '900', fontSize: '40px'}}>JENO BELLIDO</p>
           <div className='d-flex gap-4' >

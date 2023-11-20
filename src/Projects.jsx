@@ -26,8 +26,10 @@ function Projects() {
                 <div className=' rounded-5'>
                     <div className='project-bg'>
                         <div className='position-relative' data-aos="fade-up">
-                        <img className='rounded-3' src="project-1.png" alt="" style={{width: '100%', height: 'auto'}} />
-                        <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '0', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit SafetyPin </button>                            
+                        <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
+                        <source src="safetypin.mp4" type="video/mp4" />
+                    </video>
+                        <button className='m-0 border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i> Visit SafetyPin </button>                            
                         </div>
                     <div className='' data-aos="fade-up" >
                         <p className='mt-3 title' style={{fontWeight: '900', fontSize: '30px'}} >SAFETYPIN</p>
@@ -45,7 +47,7 @@ function Projects() {
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-2-2.mp4" type="video/mp4" />
                     </video>
-                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '0', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit ICH </button>                            
+                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit ICH </button>                            
                     </div>
                     <div className=' py-2' data-aos="fade-up" >
                     <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '900', fontSize: '30px'}} >ILOILO COFFEE HOUSE</p>
@@ -63,7 +65,7 @@ function Projects() {
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-3-2.mp4" type="video/mp4" />
                     </video>
-                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '0', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit Swiftify </button>                            
+                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit Swiftify </button>                            
                     </div>
                     <div className=' py-2' data-aos="fade-up" >
                     <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '900', fontSize: '30px'}} >SWIFTIFY</p>
@@ -81,7 +83,7 @@ function Projects() {
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-5.mp4" type="video/mp4" />
                     </video>
-                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '0', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit ICH </button>                            
+                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit PneumoScan </button>                            
                     </div>
                     <div className=' py-2' data-aos="fade-up" >
                     <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '900', fontSize: '30px'}} >PNEUMOSCAN</p>
@@ -99,7 +101,7 @@ function Projects() {
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-4.mp4" type="video/mp4" />
                     </video>
-                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '0', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit Swiftify </button>                            
+                    <button className='border position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square'></i> Visit WVSU - USA </button>                            
                     </div>
                     <div className=' py-2' data-aos="fade-up" >
                     <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '900', fontSize: '30px'}} >WVSU - USA</p>
