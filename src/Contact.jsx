@@ -10,7 +10,7 @@ function Contact() {
           <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-right"> Want to chat or collaborate? Feel free to reach out! I'm all ears. Let's make something awesome together! 🚀</p>
       </div>
 
-      <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-start align-items-lg-start align-items-md-start align-items-center ' data-aos="fade-right" >
+      <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-start' data-aos="fade-right" >
       
 
       <div className='col-12 row d-flex p-lg-5 p-md-4 p-sm-3 p-4 justify-content-start'>

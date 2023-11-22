@@ -22,7 +22,7 @@ function Skills() {
                     <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} data-aos="fade-right" > Here are my skills: a versatile toolkit ready to enhance any project! 🚀</p>
                 </div>
 
-                <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-lg-start justify-content-md-start justify-content-center align-items-center p-lg-4 p-4 ' >
+                <div className='d-flex flex-lg-row flex-md-row flex-column col-12 justify-content-lg-start justify-content-md-start justify-content-start align-items-start p-lg-4 p-4 ' >
 
                 <div className='col-lg-12 col-md-12 col-12 p-3 row d-flex '>
 
