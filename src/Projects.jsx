@@ -33,7 +33,7 @@ function Projects() {
                         </div>
                     <div className='' data-aos="fade-up" >
                         <p className='mt-3 title' style={{fontWeight: '900', fontSize: '30px'}} >SAFETYPIN</p>
-                        <p className=' desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Integration of Dijkstra's algorithm to recommend safe routes, and KDE algorithm to analyze crime patterns within Iloilo City.</p>
+                        <p className=' desc' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Integration of Dijkstra's algorithm to recommend safe routes, and KDE algorithm to analyze crime patterns within Iloilo City. <i style={{color: 'red'}}>This project is still ongoing.</i></p>
                         <p className='m-0 techstack' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> <b style={{color: '#004AAD'}}>Tech Stack: </b> FastAPI, React, Javascript, CSS, Bootstrap, HTML</p>
                     </div>
                     </div>
