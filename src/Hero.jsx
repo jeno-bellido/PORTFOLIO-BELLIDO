@@ -56,11 +56,11 @@ function Hero() {
               </div>
 
               <div className='d-flex gap-4' data-aos="fade-right" data-aos-delay="800" >
-                <button className='px-4 py-2 btn btn-primary rounded-5 border-2 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Full-stack Developer </button> 
+                <button className='px-4 py-2 btn btn-primary rounded-5 border-2 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Software Developer </button> 
                 </div>
 
               <div data-aos="fade-right" data-aos-delay="600" style={{marginTop: '15px'}}>
-                <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Full-stack Developer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
+                <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Software Developer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
               </div>
                 <br />
 

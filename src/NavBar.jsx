@@ -41,26 +41,26 @@ function NavBar() {
         <div className='d-flex align-items-center justify-content-center gap-3'>
 
         <div data-aos="fade-down" data-aos-delay="1000">
-        <div className=''>
+        <div className='nav-logo'>
         <a target='_blank' href = "https://www.linkedin.com/in/jeno-bellido-079221218/"> <img src="linkedin.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /></a> 
         </div>
 
         </div>
         <div data-aos="fade-down" data-aos-delay="1200">
-        <div className=''>
+        <div className='nav-logo'>
         <a target='_blank' href = "https://www.instagram.com/jjeennnooo/">  <img src="instagram.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
         </div>
 
         </div>
         <div data-aos="fade-down" data-aos-delay="1400">
-        <div className=''>
+        <div className='nav-logo'>
           <img src="github.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  />
         </div>
 
         </div>
 
         <div data-aos="fade-down" className='' data-aos-delay="1400">
-        <div className=''>
+        <div className='nav-logo'>
         <a href = "mailto: jeno.bellido@wvsu.edu.ph">  <img src="gmail.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
         </div>
 
@@ -73,23 +73,23 @@ function NavBar() {
 
       <div className='d-lg-none d-md-none d-flex align-items-center justify-content-center gap-4'>
         <div data-aos="fade-down" data-aos-delay="200">
-        <div className=''>
+        <div className='nav-logo'>
         <a target='_blank' href = "https://www.linkedin.com/in/jeno-bellido/"> <img src="linkedin.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /></a> 
         </div>
         </div>
         <div data-aos="fade-down" data-aos-delay="400">
-        <div className=''>
+        <div className='nav-logo'>
         <a target='_blank' href = "https://www.instagram.com/jjeennnooo/">  <img src="instagram.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
         </div>
         </div>
         <div data-aos="fade-down" data-aos-delay="600">
-        <div className=''>
+        <div className='nav-logo'>
           <img src="github.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  />
         </div>
         </div>
 
         <div data-aos="fade-down" data-aos-delay="600">
-        <div className=''>
+        <div className='nav-logo'>
         <a href = "mailto: jeno.bellido@wvsu.edu.ph">  <img src="gmail.png" alt="" style={{objectFit: 'cover', width: '25px', height: 'auto'}}  /> </a>
         </div>
         </div>

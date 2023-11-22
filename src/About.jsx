@@ -21,13 +21,13 @@ function About() {
           <div data-aos="fade-up" data-aos-delay="200" className='d-flex flex-column justify-content-center '>
           <p className='mb-1 ' style={{lineHeight: '1', fontWeight: '900', fontSize: '40px'}}>JENO BELLIDO</p>
           <div className='d-flex gap-4' >
-                <p className='' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131', borderBottom: '2px solid #0277B5'}}> Full-stack Developer </p> 
+                <p className='' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131', borderBottom: '2px solid #0277B5'}}> Software Developer </p> 
                 </div>
 
           <p className='my-2 skill' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >
-     Hey, I'm <b>Jeno</b>, currently in my 4th year at West Visayas State University, where I'm majoring in Computer Science with a focus on Artificial Intelligence. I'm genuinely passionate about diving into the world of Software Development.
+     Hey, I'm <b>Jeno</b>, currently in my fourth year at West Visayas State University, where I'm majoring in Computer Science with a focus on Artificial Intelligence. I'm genuinely passionate about actively engaging in the dynamic field of <b>Software Development. </b> 
       I've had the incredible experience of leading a team to a national competition that made it to the <b>top 10 innovations in the BPI-DOST Innovation Awards 2023</b>. Also, I've been fortunate enough to consistently receive <b>gold medals for academic excellence</b> throughout my college journey.
-    <br /> <br /> Looking ahead, my career goal is to make a meaningful contribution on society through my work in <b>software development and AI</b>. I'm driven contribute positively to the advancement of technology, aiming to use it for the betterment of our community.
+    <br /> <br /> Looking ahead, my career goal is to make a meaningful contribution on society through my work in <b>software development and AI</b>. I'm driven to contribute positively to the advancement of technology, aiming to use it for the betterment of our community.
 </p>
 
 <div className='d-flex mt-2 gap-3'>

@@ -110,3 +110,10 @@ body {
 .contact:hover{
     transform: scale(1.03) !important;
 }
+
+.nav-logo{
+  transition: .3s ease-in-out !important;
+}
+.nav-logo:hover{
+  transform: scale(1.5) !important;
+}
