@@ -67,7 +67,7 @@ function Hero() {
                 <div className='d-flex gap-3 'data-aos="fade-right"  data-aos-delay="800">
 
                 <div className='d-flex gap-4' >
-                 <a target='_blank' href="https://ivory-kristina-56.tiiny.site"> <button className='description px-4 py-2 btn btn-primary border-2' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> 📄 RESUME </button> </a> 
+                 <a target='_blank' href="https://jumpshare.com/s/V4CAdJafrk8VlNHHPO8Z"> <button className='description px-4 py-2 btn btn-primary border-2' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> 📄 RESUME </button> </a> 
                 </div>
 
                 <ScrollLink to="contact" offset={-50} className='d-flex gap-4 text-decoration-none ' >
