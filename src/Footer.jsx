@@ -19,16 +19,16 @@ function Footer() {
         <div className='col-lg-4 col-md-4 col-12 d-flex justify-content-center align-items-center py-lg-0 py-md-0 py-5'>
         <div className='d-flex gap-3 text-center align-items-center justify-content-center'>
         <ScrollLink to="projects" smooth={true} duration={0} offset={-80}> 
-          <p className='nav m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}  >Projects</p>
+          <p className='nav m-0 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}  >Projects</p>
         </ScrollLink>
         <ScrollLink to="skills" smooth={true} duration={0} offset={-80}> 
-          <p className='nav m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}  >Skills</p>
+          <p className='nav m-0 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}  >Skills</p>
         </ScrollLink>
         <ScrollLink to="about" smooth={true} duration={0} offset={-40}> 
-          <p className='nav m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}  >About</p>
+          <p className='nav m-0 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}  >About</p>
         </ScrollLink>
         <ScrollLink to="contact" smooth={true} duration={0} offset={-80}> 
-          <p className='nav m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}  >Contact</p>
+          <p className='nav m-0 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}  >Contact</p>
         </ScrollLink>
         </div>       
         </div>
@@ -63,8 +63,8 @@ function Footer() {
 
         </div>
 
-        <div className='d-flex col-12 justify-content-center align-items-center p-lg-4 p-4 description' style={{fontSize: '16px'}} >
-        📋 2021 © Jeno Bellido • All Rights Reserved.
+        <div className='d-flex col-12 justify-content-center align-items-center p-lg-4 p-4 description' style={{fontSize: '16px', fontWeight:'300'}} >
+        2021 © Jeno Bellido • All Rights Reserved.
         </div>
         </div>
     </div>

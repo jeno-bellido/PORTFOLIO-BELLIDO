@@ -5,10 +5,13 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 // ScrollLink [npm install react-scroll, clicking it will redirect to a section with specified id]
 import { Link as ScrollLink } from 'react-scroll';
+import { saveAs } from 'file-saver';
+import File from './resume.pdf';
 
 function Hero() {
-
-
+  const downloadPdf = () => {
+    saveAs(File, 'resume.pdf');
+  }
 
       useEffect(() => {
         window.scrollTo(0, 0);
@@ -49,29 +52,29 @@ function Hero() {
             
             <div className='col-lg-7 col-12  p-2 d-flex  justify-content-center flex-column'>
               <div data-aos="fade-right" data-aos-delay="200">
-                <p className='greeting' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >👋 Hey there, I’m</p>
+                <p className='greeting' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} >👋 Hey there, I’m</p>
               </div>
               <div data-aos="fade-right" data-aos-delay="400">
               <p className='name' style={{ lineHeight: '1',  fontWeight: '900', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent' }}>JENO BELLIDO</p>              
               </div>
 
               <div className='d-flex gap-4' data-aos="fade-right" data-aos-delay="800" >
-                <button className='px-4 py-2 btn btn-primary rounded-5 border-2 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}}> Software Developer </button> 
+                <button className='px-4 py-2 btn btn-primary rounded-5 border-2 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Software Engineer </button> 
                 </div>
 
               <div data-aos="fade-right" data-aos-delay="600" style={{marginTop: '15px'}}>
-                <p className='m-0 description' style={{fontWeight: 'normal', fontSize: '16px', color: '#323131'}} >Software Developer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
+                <p className='m-0 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} >Software Engineer from the Philippines. On a mission to craft apps that leave an indelible mark.  Let's build the web together! 🌐💻</p>
               </div>
                 <br />
 
                 <div className='d-flex gap-3 'data-aos="fade-right"  data-aos-delay="800">
 
                 <div className='d-flex gap-4' >
-                 <a target='_blank' href="https://jumpshare.com/s/V4CAdJafrk8VlNHHPO8Z"> <button className='description px-4 py-2 btn btn-primary border-2' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> 📄 RESUME </button> </a> 
+                <button className='description px-4 py-2 btn btn-primary border-2' onClick={downloadPdf} style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> 📄 Download Resume </button> 
                 </div>
 
                 <ScrollLink to="contact" offset={-50} className='d-flex gap-4 text-decoration-none ' >
-                 <button className='px-4 py-2 btn btn-primary border-2 text-decoration-none description' style={{fontWeight: 'bold', fontSize: '16px', color: '#323131'}}> Get in Touch </button> 
+                 <button className='px-4 py-2 btn btn-primary border-2 text-decoration-none description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Get in Touch </button> 
                 </ScrollLink>
 
                 </div>
