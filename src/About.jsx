@@ -25,7 +25,7 @@ function About() {
                 </div>
 
           <p className='my-2 skill' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} >
-     Hey, I'm <b>Jeno</b>, currently in my fourth year at West Visayas State University, where I'm majoring in Computer Science with a focus on Artificial Intelligence. I'm genuinely passionate about actively engaging in the dynamic field of <b>Software Development. </b> 
+     Hey, I'm <b>Jeno</b>, I took up BS Computer Science with a major on Artificial Intelligence. I'm genuinely passionate about actively engaging in the dynamic field of <b>Software Development. </b> 
       I've had the incredible experience of leading a team to a national competition that made it to the <b>top 10 innovations in the BPI-DOST Innovation Awards 2023</b>. Also, I've been fortunate enough to consistently receive <b>gold medals for academic excellence</b> throughout my college journey.
     <br /> <br /> Looking ahead, my career goal is to make a meaningful contribution on society through my work in <b>software development and AI</b>. I'm driven to contribute positively to the advancement of technology, aiming to use it for the betterment of our community.
 </p>
