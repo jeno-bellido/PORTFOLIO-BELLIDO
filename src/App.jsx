@@ -15,7 +15,7 @@ function App() {
     <>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Jeno</title>
+      <title>JB</title>
       <link rel="canonical" href="http://mysite.com/example" />
       <meta name="description" content="Helmet application" />
     </Helmet>

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import VanillaTilt from 'vanilla-tilt';
 // npm install aos [animate onscroll]
 import AOS from 'aos' 
@@ -46,7 +46,7 @@ function Hero() {
     <>
 
     
-    <div className=' d-flex justify-content-center align-items-center my-lg-0 my-md-5 my-5 mb-5' >
+    <div className='hero d-flex justify-content-center align-items-center my-lg-0 my-md-5 my-5 mb-5'  >
     <div className='  d-flex justify-content-center align-items-center my-lg-0 my-md-5 my-5 px-lg-5 p-4 p-lg-0 ' style={{width: '100%'}}>
         <div className=' col-12 row d-flex '>
             
