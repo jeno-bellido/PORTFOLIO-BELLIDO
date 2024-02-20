@@ -45,6 +45,25 @@ function Projects() {
                     <div className='project-bg'>
                     <div className='position-relative' data-aos="fade-up">
                     <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
+                        <source src="project-10.mp4" type="video/mp4" />
+                    </video>
+                    <a href="https://iloilo-coffee-house.onrender.com/" target='_blank'> <button className='m-0  position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i>  Visit ICH </button>            </a>                
+                    </div>
+                    <div className=' py-2' data-aos="fade-up" >
+                    <p className='mt-3 title' style={{ lineHeight: '1', fontWeight: '700', fontSize: '30px'}} >ContentSite</p>
+                        <p className=' desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> A <b>full-stack website</b> that enables users to <b>create and share content</b>, categorized by hashtags (#) to specify the type of content.</p>
+                        <p className='m-0 techstack' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> <b style={{color: '#004AAD'}}>Tech Stack: </b> MongoDB, Express, Next.js, Node.js, Express.js, Javascript, TailwindCSS CSS, HTML</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className='project col-lg-4 col-md-6 col-sm-6 col-12 d-lg-flex d-flex pb-5'>
+                <div className=' rounded-5'>
+                    <div className='project-bg'>
+                    <div className='position-relative' data-aos="fade-up">
+                    <video className='rounded-3' autoPlay muted loop  style={{ width: '100%', height: 'auto' }}>
                         <source src="project-2-2.mp4" type="video/mp4" />
                     </video>
                     <a href="https://iloilo-coffee-house.onrender.com/" target='_blank'> <button className='m-0  position-absolute shadow rounded-3 btn' style={{ fontWeight: 'normal', fontSize: '12px', color: 'white', bottom: '-5px', left: '50%', transform: 'translate(-50%, -50%)', }} > <i className='bi bi-arrow-up-right-square m-0'></i>  Visit ICH </button>            </a>                
