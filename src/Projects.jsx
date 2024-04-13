@@ -20,6 +20,7 @@ function Projects() {
                 <p className='mb-1 name' style={{lineHeight: '1', fontWeight: '900', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right" >PROJECTS</p>
                 <p className='m-0 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="400"> The showcase of the cool stuff I've worked on — take a look. <br /> <span className='text-danger '>Note: My projects are hosted on Render's free tier, and the content may load slowly on the initial load.</span> </p>
             </div>
+            
             <div className='d-flex col-12 row justify-content-start p-lg-4 p-4' >
 
             <div className='project col-lg-4 col-md-6 col-sm-6 col-12 d-lg-flex d-flex pb-5'>
@@ -33,7 +34,7 @@ function Projects() {
                         </div>
                     <div className='' data-aos="fade-up" >
                         <p className='mt-3 title' style={{fontWeight: '700', fontSize: '30px'}} >SafetyPin</p>
-                        <p className=' desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Integration of <b>Dijkstra's algorithm to recommend safe routes</b>, and <b>Kernel Density Estimation algorithm</b> to <b>analyze crime patterns</b>  within Iloilo City. <i style={{color: 'red'}}>This project is still ongoing.</i></p>
+                        <p className=' desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Integration of <b>Dijkstra's algorithm to recommend safe routes</b>, and <b>Kernel Density Estimation algorithm</b> to <b>analyze crime patterns</b>  within Iloilo City. </p>
                         <p className='m-0 techstack' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> <b style={{color: '#004AAD'}}>Tech Stack: </b> FastAPI, React, Javascript, CSS, Bootstrap, HTML</p>
                     </div>
                     </div>

@@ -21,7 +21,7 @@ function Contact() {
             Email
         </p>
         <p className='description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} > 
-        Feel free to reach out to me via email:  <a href = "mailto: jeno.bellido@wvsu.edu.ph" className='text-decoration-none'><br /> <br /><button className='btn btn-primary  bg-primary '>Send an email </button>  </a> 
+        Feel free to reach out to me via email:  <a href = "mailto: jeno.bellido@wvsu.edu.ph" className='text-decoration-none'><br /> <br /><button className='btn btn-primary bg-primary' style={{ fontSize: '12px', width: '100%'}}>Send an email </button>  </a> 
         </p>
 
         </div>
@@ -29,20 +29,20 @@ function Contact() {
         <div className='contact col-lg-3 col-md-6 col-6 p-lg-5 p-md-5 p-sm-3  p-2 '>
         <img src="contact-ig.png" alt="" className='rounded-4 '  style={{objectFit: 'cover', width: '100%', height: 'auto'}}  />
         <p className='mt-2 p-0 m-0 description' style={{fontWeight: '700', fontSize: '16px', color: '#323131'}} > 
-            INSTAGRAM
+            Instagram
         </p>
         <p className='description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} > 
-            Let's connect on Instagram: <a target='_blank' className='text-decoration-none ' href = "https://www.instagram.com/jjeennnooo/"> <br /> <br /><button className='btn btn-primary  bg-primary '>View Instagram </button>  </a> 
+            Let's connect on Instagram: <a target='_blank' className='text-decoration-none ' href = "https://www.instagram.com/jjeennnooo/"> <br /> <br /><button style={{ fontSize: '12px', width: '100%'}} className='btn btn-primary  bg-primary '>View Instagram </button>  </a> 
         </p>
         </div>
 
         <div className='contact col-lg-3 col-md-6 col-6 p-lg-5 p-md-5 p-sm-3 p-2 '>
         <img src="contact-linkedin.png" alt="" className='rounded-4 ' style={{objectFit: 'cover', width: '100%', height: 'auto'}}  />
         <p className='mt-2 p-0 m-0 description' style={{fontWeight: '700', fontSize: '16px', color: '#323131'}} > 
-            LINKEDIN
+            LinkedIn
         </p>
         <p className=' description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} > 
-        Connect with me on LinkedIn:  <a target='_blank' className='text-decoration-none ' href = "https://www.linkedin.com/in/jeno-bellido/"> <br /> <br /> <button className='btn btn-primary  bg-primary '>View LinkedIn </button>  </a> 
+        Connect with me on LinkedIn:  <a target='_blank' className='text-decoration-none ' href = "https://www.linkedin.com/in/jeno-bellido/"> <br /> <br /> <button style={{ fontSize: '12px', width: '100%'}} className='btn btn-primary  bg-primary '>View LinkedIn </button>  </a> 
         </p>
 
         </div>
@@ -50,10 +50,10 @@ function Contact() {
         <div className='contact col-lg-3 col-md-6 col-6 p-lg-5 p-md-5 p-sm-3  p-2 '>
         <img src="contact-phone.png" alt="" className='rounded-4 ' style={{objectFit: 'cover', width: '100%', height: 'auto'}}  />
         <p className='mt-2 p-0 m-0 description' style={{fontWeight: '700', fontSize: '16px', color: '#323131'}} > 
-            PHONE
+            Phone
         </p>
         <p className=' description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} > 
-        Message or call me via phone number:  <a target='_blank'className='text-decoration-none '  href="tel:+639197750645"> <br /> <br /> <button className='btn btn-primary  bg-primary '> Send a Message </button>  </a>
+        Message or call me via phone number:  <a target='_blank'className='text-decoration-none '  href="tel:+639197750645"> <br /> <br /> <button style={{ fontSize: '12px', width: '100%'}} className='btn btn-primary  bg-primary '> Send a Message </button>  </a>
         </p>
 
         </div>

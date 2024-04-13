@@ -9,6 +9,7 @@ import About from "./About"
 import Contact from "./Contact"
 import Footer from "./Footer"
 import {Helmet} from "react-helmet";
+import Experience from "./Experience";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 
     <NavBar/>
     <Hero />
+    <Experience />
     <Projects />
     <Skills />
     <About />

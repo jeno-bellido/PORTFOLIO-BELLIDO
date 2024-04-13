@@ -30,7 +30,7 @@ function About() {
             <br /> <br /> Looking ahead, my career goal is to make a meaningful contribution on society through my work in <b>software development and AI</b>. I'm driven to contribute positively to the advancement of technology, aiming to use it for the betterment of our community.
           </p>
 
-<div className='d-flex mt-2 gap-3'>
+{/* <div className='d-flex mt-2 gap-3'>
 
 <div  >
 <div className=''>
@@ -58,7 +58,7 @@ function About() {
 
 </div>
 
-</div>
+</div> */}
 
           </div>
 
