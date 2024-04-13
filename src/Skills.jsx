@@ -27,6 +27,21 @@ function Skills() {
                 <div className='col-lg-12 col-md-12 col-12 p-3 row d-flex '>
 
                 <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <img src="next.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                    <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Next.JS</p>
+                </div>
+
+                <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <img src="aws.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                    <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> AWS</p>
+                </div>
+
+                <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <img src="shopify.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                    <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Shopify </p>
+                </div>
+
+                <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="react.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> React</p>
                     </div>
