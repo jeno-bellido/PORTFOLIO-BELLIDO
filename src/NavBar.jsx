@@ -17,7 +17,7 @@ function NavBar() {
   }, []);
   return (
     <>
-    <div className='d-flex justify-content-center align-items-center '>
+    <div className='d-flex justify-content-center align-items-center position-fixed ' style={{width: '100%', backgroundColor: '#fff', zIndex: '100', boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.1)'}}>
     <div className='d-flex justify-content-between p-lg-5 p-4' style={{height: '100px', width: '100%'}}>
 
       <div className='d-flex align-items-center justify-content-center'>
@@ -25,16 +25,20 @@ function NavBar() {
       </div>
 
       <div className='d-lg-flex d-md-flex d-none align-items-center justify-content-center gap-5'>
-        <ScrollLink to="projects" smooth={true} duration={0} offset={-80}> 
+      <ScrollLink to="experience" smooth={true} duration={0} offset={-120}> 
+          <p className='nav m-0' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="200">Experience</p>
+        </ScrollLink>
+
+        <ScrollLink to="projects" smooth={true} duration={0} offset={-120}> 
           <p className='nav m-0' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="200">Projects</p>
         </ScrollLink>
-        <ScrollLink to="skills" smooth={true} duration={0} offset={-80}> 
+        <ScrollLink to="skills" smooth={true} duration={0} offset={-120}> 
           <p className='nav m-0' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="400">Skills</p>
         </ScrollLink>
-        <ScrollLink to="about" smooth={true} duration={0} offset={-40}> 
+        <ScrollLink to="about" smooth={true} duration={0} offset={-120}> 
           <p className='nav m-0' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="600">About</p>
         </ScrollLink>
-        <ScrollLink to="contact" smooth={true} duration={0} offset={-80}> 
+        <ScrollLink to="contact" smooth={true} duration={0} offset={-120}> 
           <p className='nav m-0' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} data-aos="fade-down" data-aos-delay="800">Contact</p>
         </ScrollLink>
 

@@ -26,6 +26,13 @@ function Skills() {
 
                 <div className='col-lg-12 col-md-12 col-12 p-3 row d-flex '>
 
+                <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
+                        <img src="ai.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc text-center' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> AI</p>
+                    </div>
+
+
+
                 <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                     <img src="next.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
                     <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Next.JS</p>
@@ -42,9 +49,14 @@ function Skills() {
                 </div>
 
                 <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
-                        <img src="react.png" style={{ width: '100%', height: 'auto' }} alt="react" />
-                        <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> React</p>
-                    </div>
+                    <img src="react.png" style={{ width: '100%', height: 'auto' }} alt="react" />
+                    <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> React</p>
+                </div>
+
+                <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <img src="redux.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                    <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Redux</p>
+                </div>
 
                     <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="ts.png" style={{ width: '100%', height: 'auto' }} alt="react" />
@@ -58,8 +70,23 @@ function Skills() {
                     </div>
 
                     <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                        <img src="tailwind.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Tailwind</p>
+                    </div>
+
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                        <img src="mui.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> MUI</p>
+                    </div>
+
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                         <img src="node.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> NodeJS</p>
+                    </div>
+
+                    <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                        <img src="nest.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                        <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> NestJS</p>
                     </div>
 
                     <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
@@ -135,11 +162,6 @@ function Skills() {
                     <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
                         <img src="html.png" style={{ width: '100%', height: 'auto' }} alt="react" />
                         <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> HTML</p>
-                    </div>
-
-                    <div className='skill-div col-lg-2 col-md-2 col-4 px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up">
-                        <img src="ai.png" style={{ width: '100%', height: 'auto' }} alt="react" />
-                        <p className='desc text-center' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> AI Algorithms</p>
                     </div>
 
                 </div>
