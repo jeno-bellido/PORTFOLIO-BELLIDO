@@ -44,6 +44,11 @@ function Skills() {
                 </div>
 
                 <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
+                    <img src="expo.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
+                    <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Expo </p>
+                </div>
+
+                <div className='skill-div col-lg-2 col-md-2 col-4  px-4 d-flex flex-column justify-content-center align-items-center' data-aos="fade-up" >
                     <img src="shopify.svg" style={{ width: '100%', height: 'auto' }} alt="react" />
                     <p className='desc' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}}> Shopify </p>
                 </div>
