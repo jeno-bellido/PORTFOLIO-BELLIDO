@@ -53,7 +53,7 @@ function Contact() {
             Phone
         </p>
         <p className=' description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} > 
-        Message or call me via phone number:  <a target='_blank'className='text-decoration-none '  href="tel:+639197750645"> <br /> <br /> <button style={{ fontSize: '12px', width: '100%'}} className='btn btn-primary  bg-primary '> Send a Message </button>  </a>
+        Message or call me via phone number:  <a target='_blank'className='text-decoration-none '  href="tel:+639934055259"> <br /> <br /> <button style={{ fontSize: '12px', width: '100%'}} className='btn btn-primary  bg-primary '> Send a Message </button>  </a>
         </p>
 
         </div>

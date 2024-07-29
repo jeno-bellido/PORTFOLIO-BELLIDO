@@ -20,7 +20,7 @@ const Experience = () => {
                             </div>
                             <div>
                                 <h4 className='mb-1'> Software Developer </h4> 
-                                <p style={{ textAlign: 'justify', fontWeight: '300'}} > Spring Valley Tech Corp · Internship <br /> Feb 2024 - Present · 3 mos <br /> Negros Occidental, Western Visayas, Philippines · On-site </p>
+                                <p style={{ textAlign: 'justify', fontWeight: '300'}} > Spring Valley Tech Corp · Internship <br /> Feb 2024 - Present <br /> Negros Occidental, Western Visayas, Philippines · On-site </p>
                                 <p style={{ textAlign: 'justify', fontWeight: '300'}} > • Engaged in an immersive <b> software development training </b> program while also gaining <b>experience in cloud-based development, specifically, AWS.</b></p>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const Experience = () => {
                             </div>
                             <div>
                                 <h4 className='mb-1'> Software Engineer </h4> 
-                                <p style={{ textAlign: 'justify' , fontWeight: '300'}}> Forever Passion Dream Inc. · Part-time <br /> Feb 2024 - Apr 2024 · 3 mos <br /> New York, United States · Remote </p>
+                                <p style={{ textAlign: 'justify' , fontWeight: '300'}}> Forever Passion Dream Inc. · Part-time <br /> Feb 2024 - Apr 2024 <br /> New York, United States · Remote </p>
                                 <p style={{ textAlign: 'justify', fontWeight: '300'}}> 
                                 • Worked as a <b>software engineer</b> specializing in developing web applications that <b> leverage
                                 artificial intelligence, and e-commerce development (Shopify) </b> to address the specific
@@ -48,14 +48,13 @@ const Experience = () => {
                 <div className=' rounded-5'>
                         <div className='project-bg'>
                             <div className='mb-3'>
-                                <img src="salext-logo.svg"  style={{width: '50%'}} alt="" />
+                                <img src="mediaset.jpg"  style={{width: '50%'}} alt="" />
                             </div>
                             <div>
                                 <h4 className='mb-1'> Software Engineer </h4> 
-                                <p style={{ textAlign: 'justify', fontWeight: '300'}} > saleXT · Full-time <br /> Apr 2024 - Present · 1 mo <br /> Oslo, Norway · Remote </p>
+                                <p style={{ textAlign: 'justify', fontWeight: '300'}} > Mediaset · Full-time <br /> Apr 2024 - Present <br /> Oslo, Norway · Remote </p>
                                 <p style={{ textAlign: 'justify', fontWeight: '300'}} > 
-                                • Responsible for <b>full-stack development, integrating Artificial Intelligence</b> into software
-                                applications, and <b>performing data analysis</b> to drive informed decision-making.
+                                • Responsible for <b>full-stack development, planning and designing concepts</b>, and implementing them into a working product.
                                 </p>
                             </div>
                         </div>                        
