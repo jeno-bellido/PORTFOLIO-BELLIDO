@@ -10,6 +10,7 @@ import Contact from "./Contact"
 import Footer from "./Footer"
 import {Helmet} from "react-helmet";
 import Experience from "./Experience";
+import ResumeDialog from "./ResumeDialog";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <meta name="description" content="Helmet application" />
     </Helmet>
 
+    <ResumeDialog />
     <NavBar/>
     <Hero />
     <Experience />
@@ -29,7 +31,6 @@ function App() {
     <About />
     <Contact />
     <Footer />
-
 
     </>
   )
