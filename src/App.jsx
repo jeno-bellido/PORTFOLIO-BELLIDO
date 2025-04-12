@@ -11,6 +11,7 @@ import Footer from "./Footer"
 import {Helmet} from "react-helmet";
 import Experience from "./Experience";
 import ResumeDialog from "./ResumeDialog";
+import OutdatedNotification from "./OutdatedNotification";
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
     <About />
     <Contact />
     <Footer />
-
+    <OutdatedNotification />
     </>
   )
 }
