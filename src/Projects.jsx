@@ -18,7 +18,7 @@ function Projects() {
         <div className=' d-flex justify-content-center align-items-center flex-column' style={{width: "100%"}}>
             <div className='w-100  px-lg-5 p-4 p-lg-0'>
                 <p className='mb-1 name' style={{lineHeight: '1', fontWeight: '900', fontSize: '65px', background: 'linear-gradient(to bottom, #0095E4, #004AAD)', /* From top to bottom */ WebkitBackgroundClip: 'text', color: 'transparent'}} data-aos="fade-right" >PROJECTS</p>
-                <p className='m-0 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="400"> The showcase of the cool stuff I've worked on — take a look. <br /> <span className='text-danger '>Note: My projects are hosted on Render's free tier, and the content may load slowly on the initial load.</span> </p>
+                <p className='m-0 description' style={{fontWeight: '300', fontSize: '16px', color: '#323131'}} data-aos="fade-right" data-aos-delay="400"> A showcase of my past projects from before 2023 — these projects are now outdated but demonstrate my early work. <br /> <span className='text-danger '>Note: My projects are hosted on Render's free tier, and the content may load slowly on the initial load.</span> </p>
             </div>
             
             <div className='d-flex col-12 row justify-content-start p-lg-4 p-4' >
